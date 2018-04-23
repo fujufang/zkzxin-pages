@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>中科中欣-关于我们</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/other.css">
+    <!--高德地图-->
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.6&key=7831fb6247eae34dc50deddb2ced0edc"></script>
+</head>
+<body style="background-color: #f8f8f8;">
+<!--导航栏和轮播图-->
+<div class="mtop">
+    <!--导航栏-->
+    <div class="container con-nav">
+        <!--logo区-->
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="LOGO">
+            </a>
+
+        </div>
+        <!--nav-logo结束-->
+        <!--菜单区域-->
+        <div class="nav-menu">
+            <ul>
+                <li class="nav-active">
+                    <a href="about.html">关于我们</a>
+                </li>
+                <li>
+                    <a href="team.html">我们的团队</a>
+                </li>
+                <li>
+                    <a href="teach.html">VR仿真教学平台</a>
+                </li>
+                <li>
+                    <a href="lab.html">智慧实验室</a>
+                </li>
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+            </ul>
+        </div>
+        <!--nav-menu结束-->
+    </div>
+    <!--container结束-->
+
+    <!--图片展示区-->
+    <div class="m-pic" style="width:100%; position: absolute; top: 0;">
+        <img src="./images/banner-about.png" alt="关于我们">
+    </div>
+    <!--banner结束-->
+</div>
+<!--mtop结束-->
+
+<div class="about-us">
+    <div class="container">
+        <!--列表区-->
+        <div class="aboutus-list">
+            <ul>
+                <li class="aboutus-list-active">
+                    <a href="javascript:;">公司简介</a>
+                </li>
+                <li id="con">
+                    <a href="javascript:;">联系我们</a>
+                </li>
+                <li>
+                    <a href="javascript:;">加入我们</a>
+                </li>
+            </ul>
+        </div>
+        <!--aboutus-list结束-->
+
+        <!--内容展示区-->
+        <section class="aboutus-container"></section>
+        <!--aboutus-container结束-->
+    </div>
+</div>
+<!--about-us结束-->
+
+<!--底部版权区-->
+<div class="bottom">
+    <div class="container">
+        <div class="bottom-left">
+            <img src="./images/logo.png" alt="logo">
+            <span>Copyright © 2015-2016 xxxxxxxxxxxxxxxxxxxxxxx</span>
+        </div>
+        <!--bottom-left结束-->
+        <div class="bottom-right">
+            <div class="bottom-right-pic">
+                <span>0591-83765971</span>
+                <img src="images/phone.png" alt="电话号码">
+            </div>
+
+            <p>地址:福建省福州市鼓楼区湖东路208号2号楼504</p>
+        </div>
+        <!--bottom-right结束-->
+    </div>
+</div>
+<!--bottom结束-->
+
+<!--点击返回顶部-->
+<div id="topbtn"></div>
+
+<!--js脚本引入-->
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/other.js"></script>
+<script>
+    var menuList=$(".nav-menu ul li");
+    var menuIndex=0;
+    var menuFlag=false;
+    menuList.each(function () {
+        $(this).mouseover(function () {
+            if($(this).hasClass("nav-active"))
+            {
+                return;
+            }
+            menuList.eq(menuIndex).removeClass("nav-active");
+            menuFlag=true;
+        });
+        $(this).mouseout(function () {
+            menuFlag=false;
+        });
+    });
+    setInterval(function () {
+        if(menuFlag==false)
+        {
+            menuList.eq(menuIndex).addClass("nav-active");
+        }
+
+    },300);
+</script>
+</body>
+</html>

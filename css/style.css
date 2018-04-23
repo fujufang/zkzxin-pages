@@ -1,0 +1,179 @@
+body {min-width:1500px;}
+.center {width:61.4583%;min-width:1180px;height:100%;margin:0 auto;}
+a {text-decoration:none;}
+/*********************首页*********************************/
+
+/*第一部分：导航栏和轮播图*//*导航栏*/
+nav {position:absolute;width:61.4583%;min-width:1180px;height:74px;top:0;margin:0 auto;z-index:999;}
+.m-nav-logo {width:333px;float:left;}
+.m-nav-logo img {margin-top:6px;}
+.m-nav-menu {width:70%;float:right;}
+.m-nav-menu ul li {float:right;text-align:center;margin-left:40px;}
+.m-nav-menu ul li a {color:#FFFFFF;opacity:0.7;display:block;line-height:74px;font-size:18px;}
+.m-nav-menu ul li.m-nav-menu-active a {color:#FFFFFF;opacity:1.0;border-bottom:2px solid #288ff4;}
+.m-nav-menu ul li a:hover {color:#FFFFFF;opacity:1.0;border-bottom:2px solid #288ff4;}
+/*轮播图*/
+.swiper-container {width:100%;height:100%;z-index:200;position:absolute;}
+.swiper-slide img {position:relative;width:100%;height:100%;z-index:200;}
+.swiper-container .m-prev {position:absolute;width:70px;height:70px;top:70%;left:40%;background:url("../images/foward.png");}
+.swiper-container .m-next {position:absolute;width:70px;height:70px;top:70%;right:40%;background:url("../images/next.png");}
+.swiper-container .m-prev:hover {background:url("../images/foward02.png");}
+.swiper-container .m-next:hover {background:url("../images/next02.png");}
+.swiper-wrapper .swiper-slide .swiper-slide-1,.swiper-wrapper .swiper-slide .swiper-slide-2,.swiper-wrapper .swiper-slide .swiper-slide-3 {position:absolute;width:100%;height:120px;z-index:300;}
+.swiper-wrapper .swiper-slide .swiper-slide-1 span,.swiper-wrapper .swiper-slide .swiper-slide-2 span,.swiper-wrapper .swiper-slide .swiper-slide-3 span {width:100%;position:absolute;font-size:42px;text-align:center;color:#FFFFFF;top:-100%;}
+.swiper-wrapper .swiper-slide .swiper-slide-1 p,.swiper-wrapper .swiper-slide .swiper-slide-2 p,.swiper-wrapper .swiper-slide .swiper-slide-3 p {position:absolute;width:100%;text-align:center;font-size:24px;bottom:-100%;color:#FFFFFF;}
+
+/*第二部分：智慧实验室管理平台*/
+.bottom-center {width:61.4583%;min-width:1180px;margin:0 auto;}
+.m-lab-left {display:none;position:relative;width:486px;height:435px;float:left;top:20%;background:url(../images/MAC.png) no-repeat;}
+.m-lab-left img {margin-left:18px;margin-top:18px;}
+.m-lab-right {width:45%;float:right;}
+.m-lab-right-title {width:467px;position:absolute;top:-100%;display:none;z-index:1;}
+.m-lab-right-title span {font-size:36px;color:#288ff4;display:block;margin-bottom:70px;}
+.m-lab-right-title p {font-size:16px;text-align:justify;line-height:32px;}
+.m-lab-right-cha {position:absolute;bottom:-100%;}
+.detail {width:180px;height:44px;display:block;color:#999999;text-align:center;font-size:18px;line-height:44px;background:url(../images/Checkthedetails.png) no-repeat;margin:70px 0;}
+.detail:hover {color:#FFFFFF;background:url(../images/Checkthedetails02.png) no-repeat;}
+.m-lab-right-cha ul li {width:84px;height:96px;margin-right:40px;float:left;text-align:center;background:url(../images/hexagon.png) no-repeat;cursor:pointer;}
+.m-lab-right-cha ul li span {font-size:18px;line-height:96px;}
+.m-lab-right-cha ul li.cha-active {background:url(../images/hexagon02.png) no-repeat;}
+.m-lab-right-cha ul li.cha-active span {color:#FFFFFF;}
+
+/*第三部分：三维VR仿真教学平台*/
+.m-teach-left {position:relative;left:-120%;margin-right:80px;width:24%;float:right;height:auto;}
+.m-teach-left span {font-size:36px;color:#288ff4;display:block;margin-top:80px;margin-bottom:70px;}
+.m-teach-left p {font-size:16px;color:#666666;line-height:32px;text-align:left;}
+.m-teach-left a span.detail {font-size:18px;}
+.m-teach-right {position:relative;width:900px;height:680px;right:-120%;float:right;}
+.section3 {min-width:1400px;}
+.m-teach-right {position:relative;}
+.real {position:absolute;width:150px;height:86px;}
+.circle {width:86px;height:86px;border-radius:86px;float:left;cursor:pointer;border:1px solid #cccccc;background-color:#f8f8f8;}
+.circle01 {float:right;}
+.real01 {right:220px;top:150px;}
+.real02 {top:180px;left:240px;}
+.real03 {left:60px;top:350px;}
+.real04 {left:100px;bottom:60px;}
+.circle p {text-align:center;font-size:18px;margin-top:34px;color:#333333;}
+.real span {color:#333333;font-size:18px;line-height:86px;margin-left:20px;}
+.round01 {width:330px;height:330px;position:absolute;bottom:60px;right:250px;background:url(../images/round01.png);background-size:330px 330px;z-index:1;}
+.round02 {position:absolute;width:221px;height:221px;left:54.5px;top:54.5px;background-size:221px 221px;background:url(../images/round02.png);z-index:1;}
+.round03 {left:67.5px;top:67.5px;z-index:1;}
+.round01 .round02 .real {width:209px;}
+.real span {display:none;}
+.real-active .circle {background:url(../images/zhenshi.png) no-repeat;}
+.real-active .circle p {display:none;}
+.real-active span {display:block;}
+.m-round {position:absolute;width:209px;height:86px;text-align:center;}
+.round-text .round03-1 {width:100%;color:#333333;font-size:20px;line-height:35px;display:block;}
+.round-text .round03-2 {color:#333333;font-size:14px;display: block;}
+.round-text {width:123px;height:86px;float:right;text-align:center;display: none;}
+
+/*第四部分：我们的团队*/
+.round {position:relative;width:500px;height:680px;overflow:hidden;margin:0 auto;}
+.round-title {text-align:center;height:214px;}
+.round-title p {color:#288ff4;font-size:36px;line-height:214px;}
+.list {width:3000px;height:360px;position:absolute;}
+.list img {float:left;}
+.list-title {position:absolute;width:500px;height:20px;bottom:40px;text-align:center;}
+.list-title span {color:#333333;display:none;font-size:20px;}
+.list-title .list-title-active {display:block;}
+#foward {position:absolute;top:50%;left:-120%;border-radius:70px;background-color:#999999;}
+#next {position:absolute;top:50%;right:-120%;border-radius:70px;background-color:#999999;}
+
+/*第五部分：关于我们和底部版权区*/
+.m-about {width:100%;height:680px;}
+img.m-about-left {position:relative;left:-120%;width:100%;max-width:400px;margin-top:80px;}
+.m-about-right {position:relative;right:-120%;width:45%;float:right;}
+.m-about-right span {display:block;font-size:36px;color:#288ff4;margin-top:80px;margin-bottom:55px;}
+.m-about-right p {font-size:16px;line-height:32px;text-align:left;}
+.m-about-right a {margin-top:55px;}
+.m-about-right a span.detail {font-size:18px;}
+
+/*底部版权区*/
+.bottom {position:absolute;bottom:0;width:100%;height:170px;background:url(../images/botton.png);}
+.bottom-left {width:340px;float:left;}
+.bottom-left img {margin:30px 0 16px 0;}
+.bottom-left span {color:#FFFFFF;font-size:14px;}
+.bottom-right {float:right;}
+.bottom-right-pic {margin-top:50px;margin-bottom:20px;height:34px;}
+.bottom-right-pic span {font-size:33px;color:#fefefe;line-height:34px;float:right;}
+.bottom-right-pic img {width:34px;height:34px;margin-right:10px;float:right;vertical-align:middle;}
+.bottom-right p {color:#FFFFFF;font-size:14px;}
+
+/*返回顶部按钮*/
+.back-top{width:38px;height: 47px;background: url("../images/top.png");position: fixed;bottom:180px;right:100px;display: none;cursor:pointer;
+    z-index:1;}
+
+/*********************媒体查询*********************************/
+@media only screen and (max-width: 1680px)
+{
+    /*1.导航栏和轮播图*/
+    .m-nav-menu ul li a {font-size:16px;}
+    .swiper-wrapper .swiper-slide .swiper-slide-1 span,.swiper-wrapper .swiper-slide .swiper-slide-2 span,.swiper-wrapper .swiper-slide .swiper-slide-3 span {font-size:40px;}
+    .swiper-wrapper .swiper-slide .swiper-slide-1 p,.swiper-wrapper .swiper-slide .swiper-slide-2 p,.swiper-wrapper .swiper-slide .swiper-slide-3 p {font-size:22px;}
+
+    /*2.智慧实验室管理平台*/
+    .m-lab-right-title span {font-size:34px;}
+    .m-lab-right-title p {font-size:14px;}
+    .detail {font-size:18px;}
+    .m-lab-right-cha ul li span {font-size:16px;}
+
+    /*3.VR仿真教学平台*/
+    .m-teach-left span {font-size:34px;}
+    .m-teach-left p {font-size:14px;}
+    .m-teach-left a span.detail {font-size:16px;}
+    .circle p {font-size:16px;}
+    .real span {font-size:16px;}
+    .round-text .round03-1 {font-size:18px;}
+    .round-text .round03-2 {font-size:12px;}
+    /*4.我们的团队*/
+    .round-title p {font-size:34px;}
+    .list-title span {font-size:18px;}
+
+    /*5.关于我们*/
+    .m-about-right span {font-size:34px;}
+    .m-about-right p {font-size:14px;}
+    .m-about-right a span.detail {font-size:16px;}
+
+    /*底部版权区*/
+    .bottom-left span {font-size:12px;}
+    .bottom-right-pic span {font-size:30px;}
+    .bottom-right p {font-size:12px;}
+}
+
+@media only screen and (max-width: 1366px)
+{
+    /*1.导航栏和轮播图*/
+    .m-nav-menu ul li a {font-size:14px;}
+    .swiper-wrapper .swiper-slide .swiper-slide-1 span,.swiper-wrapper .swiper-slide .swiper-slide-2 span,.swiper-wrapper .swiper-slide .swiper-slide-3 span {font-size:38px;}
+    .swiper-wrapper .swiper-slide .swiper-slide-1 p,.swiper-wrapper .swiper-slide .swiper-slide-2 p,.swiper-wrapper .swiper-slide .swiper-slide-3 p {font-size:20px;}
+
+    /*2.智慧实验室管理平台*/
+    .m-lab-right-title span {font-size:32px;}
+    .m-lab-right-title p {font-size:12px;}
+    .detail {font-size:16px;}
+    .m-lab-right-cha ul li span {font-size:14px;}
+
+    /*3.VR仿真教学平台*/
+    .m-teach-left span {font-size:32px;}
+    .m-teach-left p {font-size:12px;}
+    .m-teach-left a span.detail {font-size:14px;}
+    .circle p {font-size:14px;}
+    .real span {font-size:14px;}
+    .round-text .round03-1 {font-size:16px;}
+    .round-text .round03-2 {font-size:10px;}
+    /*4.我们的团队*/
+    .round-title p {font-size:32px;}
+    .list-title span {font-size:16px;}
+
+    /*5.关于我们*/
+    .m-about-right span {font-size:32px;}
+    .m-about-right p {font-size:12px;}
+    .m-about-right a span.detail {font-size:14px;}
+
+    /*底部版权区*/
+    .bottom-left span {font-size:10px;}
+    .bottom-right-pic span {font-size:28px;}
+    .bottom-right p {font-size:10px;}
+}

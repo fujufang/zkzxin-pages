@@ -1,0 +1,336 @@
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------第一部分：首页-----------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+body {background-color:#FFFFFF;min-width:1180px;font-size: 100%;}
+a {text-decoration:none;}
+.m-pic img{
+    width:100%;}
+
+/*导航栏和轮播图*/
+.mtop {width:100%;height:768px;position:relative;}
+
+/*导航栏*/
+.container {width:61.4583%;margin:0 auto;
+    min-width: 1180px;
+}
+.con-nav {width:1180px;height:73px;z-index:99;position:relative;}
+.nav-logo {float:left;width:400px;}
+.nav-logo img {margin-top:6px;}
+.nav-menu {float:right;}
+.nav-menu ul li {float:right;line-height:70px;margin-left:50px;text-align:center;}
+.nav-menu ul li a {text-decoration:none;color:#FFFFFF;opacity:0.7;font-size:18px;display:block;}
+.nav-menu ul li a:hover,.nav-menu ul li a:active {color: #FFFFFF;opacity:1.0;border-bottom:2px solid #288ff4;}
+.nav-menu ul li.nav-active a {border-bottom:2px solid #288ff4;color: #FFFFFF;opacity: 1.0;}
+
+/*底部版权区*/
+.bottom {clear:both;width:100%;height:170px;background:url("../images/botton.png");}
+.bottom-left {width:340px;float:left;}
+.bottom-left img {margin:30px 0 16px 0;}
+.bottom-left span {color:#FFFFFF;font-size:14px;}
+.bottom-right {float:right;}
+.bottom-right-pic {margin-top:50px;margin-bottom:20px;height:34px;}
+.bottom-right-pic span {font-size:33px;color:#fefefe;line-height:34px;float:right;}
+.bottom-right-pic img {width:34px;height:34px;margin-right:10px;float:right;vertical-align:middle;}
+.bottom-right p {color:#FFFFFF;font-size:14px;}
+/*点击返回顶部*/
+#topbtn {width:40px;height:47px;background:url(../images/top.png) no-repeat;position:fixed;bottom:200px;right:100px;display:none;cursor: pointer;z-index: 99;}
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------第二部分：智慧实验室-----------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/***********************【智慧实验室】*******************************/
+.lab-system,.lab-function,.lab-power,.lab-process,.lab-environment,.lab-apply {width:100%;height:680px;}
+/*【智慧实验室】智慧实验室管理平台系统概况*/
+.lab-manage {width:100%;height:600px;}
+.lab-manage-pic {width:43%;float:left;margin-top: 60px;}
+.lab-manage-container {width:50%;float:right;margin-top: 60px;}
+.lab-manage-container span {color:#288ff4;font-size:36px;margin-bottom:70px;text-align:center;display: block;}
+.lab-manage-container p {text-align:justify;font-size:16px;color:#666666;margin-bottom:60px;}
+.lab-manage-container-list {height:41px;margin-bottom:30px;}
+.lab-manage-container-list img {float:left;margin-right:40px;}
+.lab-manage-container-list h2 {font-size:16px;color:#000000;}
+.lab-manage-container-list span {font-size:14px;color:#333333;}
+span.lab-manage-container-list-span-1{width:346px;}
+span.lab-manage-container-list-span-2{width:320px;}
+span.lab-manage-container-list-span-3{width:300px;}
+
+/*【智慧实验室】系统特点*/
+.lab-system {background-color:#f8f8f8;}
+.lab-stystem-title {width:100%;height:260px;padding-top:100px;}
+.lab-stystem-title span {color:#288ff4;font-size:36px;text-align:center;display:block;}
+.tedian {width:536px;height:64px;margin-bottom:40px;float:left;}
+.lab-system-tedian-1,.lab-system-tedian-2,.lab-system-tedian-3 {margin-right:108px;}
+.tedian p {text-align:center;font-size:16px;color:#999999;line-height:64px;}
+#tedian-1{ background: url("../images/xitong1.png") no-repeat;}
+#tedian-2{ background: url("../images/xitong2.png") no-repeat;}
+#tedian-3{ background: url("../images/xitong3.png") no-repeat;}
+#tedian-4{ background: url("../images/xitong4.png") no-repeat;}
+#tedian-5{ background: url("../images/xitong5.png") no-repeat;}
+#tedian-6{ background: url("../images/xitong6.png") no-repeat;}
+
+/*【智慧实验室】系统功能，一应俱全*/
+.lab-function-title {width:100%;height:196px;text-align:center;}
+.lab-function-title p {color:#288ff4;font-size:36px;line-height:196px;}
+.lab-function-pic {width:977px;height:399px;margin:0 auto;}
+
+/*【智慧实验室】身份权限，分工明确*/
+.lab-power {background-color:#f8f8f8;}
+.lab-power-title {width:100%;height:156px;text-align:center;}
+.lab-power-title p {color:#288ff4;font-size:36px;line-height:156px;}
+.lab-power-pic {width:100%;}
+.pictureSlider {height:518px;margin-bottom:24px;}
+.poster-item {width:400px;height:500px;transition:all 0.5s;cursor:default;-moz-transition:all 0.5s;cursor:default;-webkit-transition:all 0.5s;cursor:default;-o-transition:all 0.5s;cursor:default;}
+
+/*【智慧实验室】实验过程*/
+.lab-process-title {width:100%;height:170px;text-align:center;}
+.lab-process-title p {color:#288ff4;font-size:36px;line-height:170px;}
+.lab-process-pic {width:960px;height:460px;margin:0 auto;position: relative}
+.lab-process-pic img.process-main {position:relative;z-index:99;}
+.lab-process-pic img.arrow01 {position:absolute;z-index:1;left:100px;bottom:220px;}
+.lab-process-pic img.arrow02 {position:absolute;z-index:1;left:200px;top:100px;}
+.lab-process-pic img.arrow03 {position:absolute;z-index:1;left:200px;bottom:88px;}
+.lab-process-pic img.arrow04 {position:absolute;z-index:1;left:240px;bottom:220px;}
+.lab-process-pic img.arrow05 {position:absolute;z-index:1;left:500px;bottom:224px;}
+.lab-process-pic img.arrow06 {position:absolute;z-index:1;left:400px;bottom:50px;}
+.lab-process-pic img.arrow07 {position:absolute;z-index:1;left:334px;top:15px;}
+#arrow {display:none;}
+
+
+/*【智慧实验室】实验室环境*/
+.lab-environment {background-color:#f8f8f8;}
+.lab-environment-title {width:100%;height:214px;text-align:center;}
+.lab-environment-title p {color:#288ff4;font-size:36px;line-height:214px;}
+.lab-environment-pic {width:1026px;height:406px;}
+
+/*【智慧实验室】应用场景，服务对象*/
+.lab-apply-title {width:100%;height:210px;text-align:center;}
+.lab-apply-title p {color:#288ff4;font-size:36px;line-height:210px;}
+.lab-apply-center-left {width:486px;height:435px;float:left;margin-right:94px; background: url(../images/MAC.png) no-repeat;}
+.lab-apply-center-left img {width:448px;height:224px;margin:20px 0 0 20px;}
+.lab-apply-center-right {width:600px;float:left;}
+.lab-apply-center-right li {width:240px;height:35px;margin-top:40px;float:left;}
+.lab-apply-center-right li img {width:35px;height:35px;margin-right:20px;}
+.lab-apply-center-right li span {font-size:18px;color:#000000;text-align:center;line-height:35px;}
+.lab-apply-center-right li.lab-apply-right {margin-right:120px;}
+.lab-apply-center-right ul li.lab-apply-active span {color:#288ff4;}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*-------------------------------------第三部分：VR仿真教学平台-----------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/******************************【三维VR仿真教学系统】***************************/
+.teach-vr {width:100%;
+    min-height: 500px;
+    background-color:#FFFFFF;}
+
+.teach-vr-video {
+    width:500px;
+    height:360px;float:left;margin-top:50px;margin-right:194px;background: url(../images/video.png) no-repeat;}
+
+.teach-vr-play {width:100px;height:100px;margin:130px auto; background: url(../images/play.png) no-repeat;}
+
+.teach-vr-introduce {width:41.1864%;float:left;}
+
+.teach-vr-introduce span {color:#288ff4;font-size:36px;margin-top: 50px;margin-bottom:50px;display: inline-block}
+
+.teach-vr-introduce p {color:#666666;font-size:16px;line-height:2em;text-align:left;}
+
+/*【三维VR仿真教学系统】子系统概况*/
+.teach-child-system {width:100%;height:680px;background-color:#f8f8f8;}
+.teach-child-system-title {width:100%;height:182px;padding-top:70px;}
+
+.teach-child-system-title h1 {color:#288ff4;font-size:2.25em;}
+
+@-webkit-keyframes flipOutYtest {from {-webkit-transform:perspective(1400px);-moz-transform:perspective(1400px);-webkit-transform:perspective(1400px);-o-transform:perspective(1400px);transform:perspective(1400px);}
+    40% {-webkit-transform:perspective(1400px) rotate3d(0,1,0,60deg);-moz-transform:perspective(1400px) rotate3d(0,1,0,60deg);-o-transform:perspective(1400px) rotate3d(0,1,0,60deg);transform:perspective(1400px) rotate3d(0,1,0,60deg);opacity:1;}
+    50% {-webkit-transform:perspective(1400px) rotate3d(0,1,0,90deg);-moz-transform:perspective(1400px) rotate3d(0,1,0,90deg);-o-transform:perspective(1400px) rotate3d(0,1,0,90deg);transform:perspective(1400px) rotate3d(0,1,0,90deg);opacity:0;}
+    to {-webkit-transform:perspective(1400px) rotate3d(0,1,0,180deg);-moz-transform:perspective(1400px) rotate3d(0,1,0,180deg);-o-transform:perspective(1400px) rotate3d(0,1,0,180deg);transform:perspective(1400px) rotate3d(0,1,0,180deg);opacity:0;}
+}
+.test {-webkit-animation:flipOutYtest 0.75s linear;-moz-animation:flipOutYtest 0.75s linear;-o-animation:flipOutYtest 0.75s linear;animation:flipOutYtest 0.75s linear;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;}
+@-webkit-keyframes flipInYtest {from {-webkit-transform:perspective(1400px) rotate3d(0,1,0,-180deg);-moz-transform:perspective(1400px) rotate3d(0,1,0,-180deg);-o-transform:perspective(1400px) rotate3d(0,1,0,-180deg);transform:perspective(1400px) rotate3d(0,1,0,-180deg);opacity:0;}
+    50% {-webkit-transform:perspective(1400px) rotate3d(0,1,0,-90deg);-moz-transform:perspective(1400px) rotate3d(0,1,0,-90deg);-o-transform:perspective(1400px) rotate3d(0,1,0,-90deg);transform:perspective(1400px) rotate3d(0,1,0,-90deg);opacity:0;}
+    60% {-webkit-transform:perspective(1400px) rotate3d(0,1,0,-60deg);-moz-transform:perspective(1400px) rotate3d(0,1,0,-60deg);-o-transform:perspective(1400px) rotate3d(0,1,0,-60deg);transform:perspective(1400px) rotate3d(0,1,0,-60deg);opacity:1;}
+    to {-webkit-transform:perspective(1400px);-moz-transform:perspective(1400px);-o-transform:perspective(1400px);transform:perspective(1400px);opacity:1;}
+}
+.test2 {-webkit-animation:flipInYtest 0.75s linear;-moz-animation:flipInYtest 0.75s linear;-o-animation:flipInYtest 0.75s linear;animation:flipInYtest 0.75s linear;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;}
+.well {width:1180px;height:437px;margin-left:auto;margin-right:auto;overflow:hidden;}
+.well .well-item {position:relative;float:left;width:294px;min-height:437px;border-right:1px solid #cccccc;}
+.correct {position:absolute;width:100%;height:437px;text-align:center;background-color:#f8f8f8;}
+.correct span {color:#666666;font-size:18px;}
+.correct-pic img,.test img,.test2 img {margin:134px 97.5px 60px 97.5px;}
+.opposite {width:100%;height:437px;}
+.opposite div {min-height:437px;width:100%;}
+.opposite-content {display:table;width:100%;min-height:437px;}
+.opposite .pic1{display: block;background:url(../images/zixitong01.png);}
+.opposite .pic2 {display: block;background:url(../images/zixitong02.png);}
+.opposite .pic3 {display: block;background:url(../images/zixitong03.png);}
+.opposite .pic4 {display: block;background:url(../images/zixitong04.png);}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------第四个部分：我们的团队---------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+/***********************************【我们的团队】**********************************/
+.m-team {width:100%;background-color:#FFFFFF;}
+.m-team-introduce {width:100%;margin:80px 0;padding:60px 80px 0px 80px;border:1px solid #e8e8e8;}
+.m-team-introduce-inner {width:100%;height:270px;margin-bottom:30px;}
+.m-team-introduce-inner-pic {width:250px;height:270px;float:left;padding-right:80px;background:url(../images/people01.png) no-repeat;}
+.m-team-introduce-inner-name {width:690px;height:30px;float:right;margin-top:60px;margin-bottom:20px;}
+.m-team-introduce-inner-name h2 {color:#333333;font-size:24px;line-height:30px;text-align:right;}
+.m-team-introduce-inner-occupation {width:690px;height:30px;float:right;margin-bottom:40px;}
+.m-team-introduce-inner-occupation h3 {color:#999999;font-size:20px;line-height:30px;text-align:right;}
+.m-team-introduce-inner-detail {width:690px;height:90px;float:right;}
+.m-team-introduce-inner-detail p {width:690px;color:#999999;font-size:16px;word-wrap:break-word;word-break:break-all;}
+.m-team-introduce-extend {width:100%;height:100%;display:none;}
+.m-team-introduce-extend-honer {width:100%;height:260px;}
+.m-team-introduce-extend span {color:#999999;font-size:16px;word-wrap:break-word;word-break:break-all;}
+.m-team-introduce-extend  .m-team-introduce-extend-honer h3 {font-size:18px;color:#333333;margin:40px 0 30px 0;}
+.m-team-introduce-extend  .m-team-introduce-extend-honer ul li {float:left;}
+.m-team-introduce-extend  .m-team-introduce-extend-honer ul li img {width:170px;height:200px;margin-right:40px;}
+.m-team-introduce-more {width:34px;height:17px;display:block;margin:30px auto;cursor:pointer;}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*---------------------------------------第五部分：关于我们---------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+/***********************************【关于我们】**********************************/
+.about-us {width:100%;height:100%;padding-top:80px;}
+/***********************************【关于我们】*列表区:公司简介、联系我们、加入我们**********************************/
+.aboutus-list {background-color:#FFFFFF;width:250px;text-align:center;float:left;margin-right:40px;}
+.aboutus-list ul li a {text-decoration:none;color:#333333;font-size:20px;line-height:150px;display:block;}
+.aboutus-list-active a {border-left:4px solid #288ff4;}
+/*****************************************************【关于我们】*内容区域，公司简介、联系我们、加入我们三部分的详细介绍****************************************************/
+.aboutus-container {min-width:890px;height:100%;background-color:#FFFFFF;float:left;}
+.aboutus-cen {width:780px;margin:0 auto;}
+
+/**内容区域--公司简介*/
+.com-introduce p {text-indent:2em;color:#666666;font-size:16px;line-height:32px;}
+.com-introduce span {color:#288ff4;font-size:18px;}
+.com-introduce img {margin:40px 0;}
+
+/**内容区域--联系我们*/
+.aboutus-cen-title {width:100%;border-bottom:1px solid #cccccc;margin-bottom:60px;}
+.aboutus-cen-title h1 {font-size:36px;color:#288ff4;}
+.aboutus-cen-list {width:100%;}
+.aboutus-cen-list li {width:100%;height:26px;margin-bottom:32px;}
+.aboutus-cen-list li img {margin-right:20px;}
+.aboutus-cen-list li span.title {color:#288ff4;font-size:18px;line-height:26px;margin-right:20px;}
+.aboutus-cen-list li span.con {color:#666666;font-size:16px;line-height:26px;}
+#m-map {width:100%;height:280px;margin:40px 0;}
+
+/**内容区域--加入我们*/
+.aboutus-join-list {width:100%;}
+.join-list-title {width:100%;height:108px;margin-bottom:40px;}
+.join-list-title-img {width:108px;height:108px;float:left;margin-right:40px;}
+.join-list-title-car {width:632px;float:left;}
+.join-list-title-car h1 {font-size:24px;color:#288ff4;}
+.join-list-title-car span {color:#666666;font-size:20px;}
+.join-list-con {padding-left:148px;}
+.join-list-con h3 {font-size:20px;color:#333333;margin:30px 0;}
+.join-list-con p {color:#666666;font-size:16px;line-height:32px;margin-bottom:40px;}
+
+/*********************媒体查询*********************/
+@media only screen and (max-width: 1680px)
+{
+    /*1.首页*/
+    .nav-menu ul li a{font-size: 16px;}
+    .bottom-left span {font-size:12px;}
+    .bottom-right-pic span {font-size:30px;}
+    .bottom-right p {font-size:12px;}
+    /*2.智慧实验室*/
+    .lab-manage-container span {font-size:34px;}
+    .lab-manage-container p {font-size:14px;}
+    .lab-manage-container-list h2 {font-size:14px;}
+    .lab-manage-container-list span {font-size:12px;}
+    .lab-stystem-title span {font-size:34px;}
+    .tedian p {font-size:14px;}
+    .lab-function-title p {font-size:34px;}
+    .lab-power-title p {font-size:34px;}
+    .lab-process-title p {font-size:34px;}
+    .lab-environment-title p {font-size:34px;}
+    .lab-apply-title p {font-size:34px;}
+    .lab-apply-center-right li span {font-size:16px;}
+    span.lab-manage-container-list-span-1{width:308px;}
+    span.lab-manage-container-list-span-2{width:280px;}
+    span.lab-manage-container-list-span-3{width:270px;}
+
+    /*3.仿真教学平台*/
+    .teach-vr-introduce span {font-size:34px;}
+    .teach-vr-introduce p {font-size:14px;}
+    .teach-child-system-title h1 {font-size:34px;}
+    .correct span {font-size:16px;}
+    /*4.我们的团队*/
+    .m-team-introduce-inner-name h2 {font-size:22px;}
+    .m-team-introduce-inner-occupation h3 {font-size:18px;}
+    .m-team-introduce-inner-detail p {font-size:14px;}
+    .m-team-introduce-extend span {font-size:14px;}
+    .m-team-introduce-extend  .m-team-introduce-extend-honer h3 {font-size:16px;}
+    /*5.关于我们*/
+    .aboutus-list ul li a {font-size:18px;}
+    .aboutus-cen-title h1 {font-size:32px;}
+    .aboutus-cen-list li span.title {font-size:16px;}
+    .aboutus-cen-list li span.con {font-size:14px;}
+    .join-list-title-car h1 {font-size:22px;}
+    .join-list-title-car span {font-size:18px;}
+    .join-list-con h3 {font-size:18px;}
+    .join-list-con p {font-size:14px;}
+    .com-introduce p {font-size:14px;}
+    .com-introduce span {font-size:16px;}
+
+}
+
+@media only screen and (max-width: 1366px)
+{
+    /*1.首页*/
+    .nav-menu ul li a {font-size:14px;}
+    .bottom-left span {font-size:12px;}
+    .bottom-right-pic span {font-size:28px;}
+    .bottom-right p {font-size:12px;}
+    /*2.智慧实验室*/
+    .lab-manage-container span {font-size:32px;}
+    .lab-manage-container p {font-size:12px;}
+    .lab-manage-container-list h2 {font-size:12px;}
+    .lab-manage-container-list span {font-size:12px;}
+    .lab-stystem-title span {font-size:32px;}
+    .tedian p {font-size:12px;}
+    .lab-function-title p {font-size:32px;}
+    .lab-power-title p {font-size:32px;}
+    .lab-process-title p {font-size:32px;}
+    .lab-environment-title p {font-size:32px;}
+    .lab-apply-title p {font-size:32px;}
+    .lab-apply-center-right li span {font-size:14px;}
+    /*3.VR仿真教学平台*/
+    .teach-vr-introduce span {font-size:32px;}
+    .teach-vr-introduce p {font-size:12px;}
+    .teach-child-system-title h1 {font-size:32px;}
+    .correct span {font-size:14px;}
+    /*4.我们的团队*/
+    .m-team-introduce-inner-name h2 {font-size:20px;}
+    .m-team-introduce-inner-occupation h3 {font-size:16px;}
+    .m-team-introduce-inner-detail p {font-size:12px;}
+    .m-team-introduce-extend span {font-size:12px;}
+    .m-team-introduce-extend  .m-team-introduce-extend-honer h3 {font-size:14px;}
+    /*5.关于我们*/
+    .aboutus-list ul li a {font-size:16px;}
+    .aboutus-cen-title h1 {font-size:30px;}
+    .aboutus-cen-list li span.title {font-size:14px;}
+    .aboutus-cen-list li span.con {font-size:12px;}
+    .join-list-title-car h1 {font-size:20px;}
+    .join-list-title-car span {font-size:16px;}
+    .com-introduce p {font-size:12px;}
+    .com-introduce span {font-size:14px;}
+}
